@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 
-  <title>tjugondejuli.se</title>
+  <title>fisen och hasse</title>
 
   <style>
     body { background: #f8f6e8; color: #c5a682; }
