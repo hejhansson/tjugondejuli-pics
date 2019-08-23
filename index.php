@@ -24,10 +24,10 @@
     </p>
   </div>
 
-  <?php 
+  <?php
 
-    $dir = "images/*.jpg";
-    $images = glob( $dir );
+    $dir = "images/*.{jpg,JPG,jpeg}";
+    $images = glob( $dir, GLOB_BRACE );
 
     foreach( $images as $image ):
         echo "<img class='mb-6' src='" . $image . "' />";
@@ -36,6 +36,6 @@
   ?>
 
 </div>
-  
+
 </body>
 </html>
