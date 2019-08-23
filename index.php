@@ -21,11 +21,8 @@
   <div class="w-full sm:flex items-center my-12">
     <img class="w-16 sm:w-32" src="/images/flower.png" alt="">
     <p class="mt-6 sm:mt-0 sm:pl-12">
-
-
-
       Till er som var där på vigseln, middagen och festen. Till er som planerat, organiserat och fixat under ett helt år. Till er som gav oss lyckoönskningar och fina gåvor. Till er som skulle vart där men fick se oss från himlen. TACK!
-<br><br>
+      <br><br>
       Vi har samlat ihop våra favoritbilder från dagen, kvällen och natten.<br>Ladda ner dem oredigerade <a target="_blank" class="border-b-2" href="https://www.dropbox.com/s/ki7jb378s6phqxk/tjugondejuli-pics.zip?dl=0">här</a>.
     </p>
   </div>
@@ -36,10 +33,25 @@
     $images = glob( $dir, GLOB_BRACE );
 
     foreach( $images as $image ):
-        echo "<img class='mb-12 shadow-md' src='" . $image . "' />";
+        echo "<img loading='lazy' class='mb-12 shadow-md lazyload' data-src='" . $image . "' />";
     endforeach;
 
   ?>
+
+  <script>
+    if ('loading' in HTMLImageElement.prototype) {
+        const images = document.querySelectorAll("img.lazyload");
+        images.forEach(img => {
+            img.src = img.dataset.src;
+        });
+    } else {
+      let script = document.createElement("script");
+      script.async = true;
+      script.src =
+        "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.1.8/lazysizes.min.js";
+      document.body.appendChild(script);
+    }
+  </script>
 
 </div>
 
