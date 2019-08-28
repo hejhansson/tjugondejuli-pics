@@ -25,7 +25,7 @@
       <p class="mt-6 sm:mt-0 sm:pl-12">
         Till er som var där på vigseln, middagen och festen. Till er som planerat, organiserat och fixat under ett helt år. Till er som gav oss lyckoönskningar och fina gåvor. Till er som skulle vart där men fick se oss från himlen. TACK!
         <br><br>
-        Vi har samlat ihop våra favoritbilder från dagen, kvällen och natten.<br>Ladda ner dem oredigerade <a target="_blank" class="border-b-2" href="https://www.dropbox.com/s/ki7jb378s6phqxk/tjugondejuli-pics.zip?dl=0">här</a>.
+        Vi har samlat ihop våra favoritbilder från dagen, kvällen och natten.<br>Ladda ner dem oredigerade <a target="_blank" class="border-b-2" href="https://www.dropbox.com/s/7f4bs5ukzs7s0hu/tjugondejuli-pics.zip?dl=0">här</a>.
       </p>
     </div>
   </div>
